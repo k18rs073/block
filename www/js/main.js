@@ -9,7 +9,7 @@ var SETTINGS_GRAVITY = 0.07,
     SETTINGS_PADDLE_ACCEL = 2.8,
     SETTINGS_POINT = 1000,
     SETTINGS_POINT_SILVER = 200,
-    SETTINGS_POINT_GOLD = 3000000;
+    SETTINGS_POINT_GOLD = 3000;
     
 var GAMESTATE_STOP = 0,
     GAMESTATE_PLAY = 1;
@@ -45,12 +45,12 @@ var BB = {
             [null,      'blue',       null,       'blue',       null,       'blue',     null,      'blue',       null,       'blue'],
             ['red',      null,       'red',       null,       'red',      null,      'red',     null,       'red',       null],
             [null,      'silver',       null,       'silver',      null,      'silver',       null,       'silver',     null,       'silver'],
-            ['gold',      null,       'gold',      null,      'gold',       null,       'gold',       null,       'gold',     null],    
+            ['silver',      null,       'silver',      null,      'gold',       null,       'silver',       null,       'silver',     null],    
             [null,      'green',      null,      'green',       null,       'green',     null,       'green',       null,   'green'],    
             ['blue',      null,       'blue',       null,       'blue',       null,       'blue',       null,   'blue',   null],    
             [null,      'red',       null,       'red',      null,       'red',       null,   'red',   null,       'red'],    
             ['silver',      null,       'silver',       null,       'silver',   null,   'silver',   null,       'silver',       null],
-            [null,      'gold',       null,       'gold',       null,       'gold',   null,       'gold',       null,       'gold']
+            [null,      'green',       null,       'green',       null,       'green',   null,       'green',       null,       'green']
         ];
         
         for(j = 0; j < blockMap.length; j++) {
