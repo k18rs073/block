@@ -95,8 +95,8 @@ var BB = {
         block.position.x = x;
         block.position.y = y;
         
-        block.width = 30;
-        block.height = 12;
+        block.width = 15;
+        block.height = 10;
         
         block.point = point;
      
