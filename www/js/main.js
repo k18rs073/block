@@ -95,7 +95,7 @@ var BB = {
         block.position.x = x;
         block.position.y = y;
         
-        block.width = 15;
+        block.width = 10;
         block.height = 10;
         
         block.point = point;
@@ -117,8 +117,8 @@ var BB = {
         ball.position.x = parseInt(BB.renderer.width * 0.5);
         ball.position.y = 200;
         
-        ball.width = 10;
-        ball.height = 10;
+        ball.width = 5;
+        ball.height = 5;
         
         ball.delta = {
             'x' : Math.random() - 0.5,
