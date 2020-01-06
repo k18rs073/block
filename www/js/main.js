@@ -209,7 +209,7 @@ var BB = {
         }
         BB.addPaddle();
         
-        var resetLabel = new PIXI.Text("RESET", {font: "24px/1.2 vt", fill: "red"});
+        var resetLabel = new PIXI.Text("RESET", {font: "24px/1.2 vt", fill: "yellow"});
         resetLabel.position.x = 18;
         resetLabel.position.y = BB.renderer.height - 52;
         BB.stage.addChild(resetLabel);
@@ -222,7 +222,7 @@ var BB = {
             resetLabel.setText("RESET"); //for Android
         }, 1000, resetLabel);
         
-        var label = new PIXI.Text("SCORE:", {font: "24px/1.2 vt", fill: "red"});
+        var label = new PIXI.Text("SCORE:", {font: "24px/1.2 vt", fill: "yellow"});
         label.position.x = 20;
         label.position.y = 20;
         BB.stage.addChild(label);
